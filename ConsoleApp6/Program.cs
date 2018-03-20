@@ -10,6 +10,7 @@ namespace ConsoleApp6
     {
         static void Main(string[] args)
         {
+            //adicionar nova parte do codigo
 
             //Variaveis 
             double A;
