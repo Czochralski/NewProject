@@ -8,9 +8,9 @@ namespace ConsoleApp6
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Primeiro(string[] args)
         {
-            //adicionar nova parte do codigo
+           //10% do Numero esc
 
             //Variaveis 
             double A;
@@ -30,6 +30,8 @@ namespace ConsoleApp6
 
     static void Segundo(string[] args)
     {
+        
+        //X% do Numero escolhido
 
         //Variaveis 
         double Porcentagem;
