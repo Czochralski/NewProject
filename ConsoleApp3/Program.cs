@@ -11,9 +11,14 @@ namespace ConsoleApp6
 
         public static void Main(String[] args)
         {
+            
+            //Calcula Baskara
+            
+            //Variaveis
             double a, b, c;
             double delta, baskara;
-
+            
+            //Pega dados do usuário
             Console.WriteLine("Entre com o valor de A:");
             a = double.Parse(Console.ReadLine());
             Console.WriteLine("Entre com o valor de B:");
@@ -22,7 +27,7 @@ namespace ConsoleApp6
             c = double.Parse(Console.ReadLine());
 
 
-
+            //Logica da operação
             if (a == 0 && b == 0 && c == 0)
             {
                 Console.WriteLine("A, B e C devem ser diferentes de 0!");
